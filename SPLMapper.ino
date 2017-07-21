@@ -4,7 +4,8 @@
  * marchetto@umn.edu
  * 
  * This is code to log the SPL (or other analog inputs) and the date and time from a GPS module.
- * The GPS TX is hooked up on pin 12 (SSRX), while the analog input is on the ADC pin of a ESP8266 Thing.
+ * The GPS TX is hooked up on pin 12 (SSRX), while the analog input is the envelope output of a SparkFun
+ * Sound Detector board on the ADC pin of a ESP8266 Thing.
  * This uses the TinyGPS++ and Cayenne libraries. This sketch is intended to be used on a SparkFun 8266 Thing.
  * Serial data may be logged by attaching an OpenLog, cutting the RST trace on the bottom of the Thing, and
  * soldering the jumper to allow power to the serial header on the Thing.
